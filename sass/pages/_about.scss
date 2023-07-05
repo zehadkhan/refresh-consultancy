@@ -1,0 +1,162 @@
+.about-textiles-main {
+  margin: 5em 0;
+    @media (max-width: 768px) {
+      margin: 2em 0;
+    }
+  .about-textiles-inner {
+    display: flex;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    column-gap: 5em;
+    flex-direction: column;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+    .about-inner-section-both {
+      display: flex;
+      max-width: 1290px;
+      margin: 0 auto;
+      padding: 20px;
+      justify-content: space-between;
+      column-gap: 5em;
+      @media (max-width: 768px) {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+      }
+    }
+    .about-textiles-left-txt {
+      width: 70%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+    .about-textiles-header {
+      @media (max-width: 768px) {
+        display: none;
+      }
+      h1 {
+
+        font-family: $mainfont;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        color: $mainblue;
+      }
+    }
+    .about-textiles-text-middle{
+      margin-top: 2em;
+      font-family: $mainfont;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.4em;
+      color: $mainblue;
+      @media (max-width: 768px) {
+        margin-top: 1.5em;
+        font-size: 16px;
+      }
+      p{
+        font-family: $mainfont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.4em;
+        color: $mainblue;
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+      }
+      ul{
+        list-style: unset;
+      }
+      li{
+        font-family: $mainfont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.4em;
+        margin-top: 1em;
+        margin-left: 2em;
+        color: $mainblue;
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .about-textiles-right {
+      width: 30%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      .about-textiles-header-mobile{
+        display: none;
+        @media (max-width: 768px) {
+         display: block;
+        }
+        h1{
+          font-size: 34px;
+          text-align: center;
+          margin: 0 0 0.5em;
+        }
+      }
+      img{
+        width: 100%;
+        padding:5px;
+      }
+    }
+  }
+  .about-textiles-bottom-cta-txt{
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    column-gap: 5em;
+    flex-direction: column;
+    @media (max-width: 768px) {
+      padding: 0 40px;
+      max-width: 100%;
+      margin-top: 0;
+      line-height: 0;
+    }
+    p{
+      font-family: $mainfont;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.4em;
+      color: rgba(2, 20, 76, 0.7);
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  }
+  .about-contact-form-btn{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px;
+    @media (max-width: 768px) {
+      text-align: center;
+      display: inherit;
+      margin-top: 1em;
+    }
+    a{
+      padding: 10px 15px;
+      background: $mainblue;
+      border-radius: 5px;
+      font-weight: 400;
+      font-size: 18px;
+      text-decoration: none;
+      font-family: $mainfont;
+      color: #fff;
+
+    }
+    a:hover{
+      background: #053C78;
+    }
+  }
+}
