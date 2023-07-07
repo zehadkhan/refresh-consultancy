@@ -80,7 +80,7 @@ function create_textile_gallery_post_type() {
 		'has_archive' => true,
 		'supports'    => array( 'title', 'editor', 'thumbnail' ),
 		'taxonomies'  => array( 'category', 'post_tag' ),
-		'rewrite'     => array( 'slug' => 'traceability' ), // Change the slug name here
+		'rewrite'     => array( 'slug' => 'consultancy' ), // Change the slug name here
 	);
 
 	register_post_type( 'textile-gallery', $args );
