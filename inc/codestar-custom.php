@@ -11,7 +11,7 @@ if ( class_exists( 'CSF' ) ) {
 	//
 	// Create options
 	CSF::createOptions( $prefix, array(
-		'menu_title' => 'Refresh Textiles App Settings',
+		'menu_title' => 'Refresh Group App Settings',
 		'menu_slug'  => 'refresh-textiles-options',
 	) );
 
